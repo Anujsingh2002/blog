@@ -1,0 +1,55 @@
+.Post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+}
+
+.PostImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5%;
+
+}
+
+.PostInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PostCat{
+    font-style: 11px;
+    color: #be9655;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.PostTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.PostDate{
+    font-size: 13px;
+    font-style: italic;
+    color:#989898;
+    margin-top: 10px;
+}
+
+.PostDesc{
+    font-size: 14px;
+    color: #444546;
+    margin-top: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+

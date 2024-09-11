@@ -1,0 +1,60 @@
+.Login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5) 
+    ), url("https://media.istockphoto.com/id/1836401327/photo/businessman-ensures-cybersecurity-using-a-laptop-and-focuses-on-internet-technology-and-data.jpg?b=1&s=612x612&w=0&k=20&c=ovlKq0m27OcoAy2OmpztT4_j-qNX7egkf8DGY_WlY2I=");
+    background-size: cover;
+    
+}
+
+.LoginTitle{
+    font-size: 50px;
+}
+.LoginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.LoginForm>label{
+    margin: 10px 0px;
+}
+
+.LoginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.LoginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f251a4;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+.LoginButton:disabled{
+    cursor: not-allowed;
+    background-color: #f69dcb;
+}
+
+.LoginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+}

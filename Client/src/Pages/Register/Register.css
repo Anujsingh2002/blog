@@ -1,0 +1,56 @@
+.Register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5) 
+    ), url("https://media.istockphoto.com/id/1271787791/photo/login-and-password-cyber-security-concept-data-protection-and-secured-internet-access.jpg?b=1&s=612x612&w=0&k=20&c=chTj1lESJmO93wW5sxlk6GCBm3S4RZlT5w8hXsU8RLE=");
+    background-size: cover;
+    
+}
+
+.RegisterTitle{
+    font-size: 50px;
+}
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.RegisterForm>label{
+    margin: 10px 0px;
+}
+
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:  aqua;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+
+.RegisterLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:#f251a4;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+}
