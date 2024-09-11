@@ -13,7 +13,7 @@ export default function Singlepost() {
 
     const [post, setPost] = useState({});
 
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://blog-backend-sd67.onrender.com/images/"
 
     const {user}=useContext(Context);
 

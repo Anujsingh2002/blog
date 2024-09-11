@@ -43,6 +43,6 @@ app.use('/api/categories',categoryRoute);
 
 app.use(cors());
 
-app.listen('5000',()=>{
+app.listen(process.env.PORT || 5000,()=>{
     console.log('backend is running at port 5000');
 })
