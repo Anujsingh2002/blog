@@ -13,7 +13,7 @@ export default function Singlepost() {
 
     const [post, setPost] = useState({});
 
-    const PF = "https://blog-backend-sd67.onrender.com/images/"
+    const PF = "https://blog-backend-bs2y.onrender.com/images/"
 
     const {user}=useContext(Context);
 

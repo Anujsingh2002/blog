@@ -16,7 +16,7 @@ export default function Settings() {
 
   const { user,dispatch } = useContext(Context);
 
-  const PF="https://blog-backend-sd67.onrender.com/images/"
+  const PF="https://blog-backend-bs2y.onrender.com/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
