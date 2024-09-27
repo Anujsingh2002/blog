@@ -24,7 +24,7 @@ export default function Singlepost() {
 
     useEffect(() => {
         const getPost = async () => {
-            const res = await axios.get('/posts/' + path);
+            const res = await axios.get('https://blog-backend-bs2y.onrender.com/api/posts/' + path);
             setPost(res.data);
 
             setTitle(res.data.title);
