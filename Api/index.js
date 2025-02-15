@@ -42,7 +42,12 @@ app.use('/api/users',userRoute);
 app.use('/api/posts',postRoute);
 app.use('/api/categories',categoryRoute);
 
-app.use(cors());
+// app.use(cors());
+app.use(cors({ 
+  origin: "https://your-frontend-domain.com", // Change this to your actual frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"], 
+  credentials: true
+}));
 
 app.listen(process.env.PORT || 5000,()=>{
     console.log('backend is running at port 5000');
